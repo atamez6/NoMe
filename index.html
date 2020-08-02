@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NoMe</title>
+    <style>
+        body{
+            display: block;
+            margin: 10px;
+        }
+        
+        .container{
+            display: flex;
+            
+            
+            
+            
+        }
+         .boxes{
+        display: grid;
+        grid-template-rows: repeat(auto-fit, minmax(20vw, 1fr));
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        width: 100%;    
+        
+        }
+
+        .box{
+            display: grid;
+            width: 29vw;
+            height: 13vw;
+            border: 0px solid #000000;
+            border-radius: 0px 112px 70px 137px;
+            
+            margin: 15px;
+            box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.75);
+        }
+        
+    </style>
 </head>
 <body>
+    
+        <div class="container">
+            <div class="boxes">
+                <!--primero crear la caja con bordes,agregarle los campos con grid y felx-->
+                <div class="box">
+                        hola
+                    <!--aqui hay que crear una clase y estilo donde se agrefe.quite una caja, 
+                    ver en otros proyecto, el codigo inteligente-->
+                </div>
+                <div class="box">
+                    adios
+                </div>
+                <div class="box">
+                    tres 
+                </div>
+                <div class="box">
+                   4
+                </div>
+            </div>
+            <div class="button-add">
+                 <!--agregar icono de boton "+" con la funcion de agregar una caja en boxes-->
+
+            </div>
+        </div>
+
+
     
 </body>
 </html>
